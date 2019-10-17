@@ -1,0 +1,11 @@
+Etiqueta usada en HTML para definir un parrafo (Definicion)
+<p> (Respuesta)
+
+Un documento HTML siempre empieza con la etiqueta (Definicion)
+<html> (Respuesta)
+
+Lenguaje que se se usa para dar estilo a los elementos HTML (Definicion)
+css (Respuesta)
+
+En una regla CSS, nos permite especificar a que elementos les queremos aplicar los estilos (Definicion)
+selector (Respuesta)
