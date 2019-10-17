@@ -1,4 +1,6 @@
+#Clase para crear el jugador
 class Jugadores
+    #metodo que tiene la lógica por medio de la cual se trata de adivinar cada una de las definiciones
     def adivinar(defEspec,respEspec)
         puts
         puts "definicion"
@@ -21,6 +23,7 @@ class Jugadores
         end
     end
 
+    #metodo que comienza el juego usando internamente el metodo adivinar para cada definición y respuesta en listaDefiniciones y listaRespuestas de forma paralela 
     def jugar(listaDefin,listaResp)
         puts "Bienvenido a reto 5, Para jugar, solo ingresa el termino correcto para cada una de las definiciones, Listo? Vamos!"
         contador = 0
@@ -33,6 +36,7 @@ class Jugadores
     end
 end
 
+#Clase para crear el objeto listaRespuestas cuyo atributo resp es un arreglo con las respuestas
 class Respuestas
     attr_accessor :resp
 
@@ -41,6 +45,7 @@ class Respuestas
     end
 end
 
+#Clase para crear el objeto listaDefiniciones cuyo atributo defin es un arreglo con las definiciones
 class Definiciones
     attr_accessor :defin
 
